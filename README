@@ -1,0 +1,15 @@
+Refer the Youtube tutorial: https://www.youtube.com/watch?v=XXaxOL-6gPA
+
+INSTALLATION:
+Run `npm install`
+
+PREPARATION:
+1. To run in a local Android AVD, make sure the AVD is up with the details as mentioned in the 'wdio.conf.android.ts' file.
+
+
+EXECUTION:
+1. To execute in LOCAL ANDROID AVD:
+    RUN_ENV=local npm run wdio:android
+
+2. To execute in LOCAL WINDOWS:
+    RUN_ENV=local npm run wdio:windows
